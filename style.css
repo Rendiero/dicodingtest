@@ -1,0 +1,365 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Ubuntu", sans-serif;
+    background-color: #42032C;
+}
+
+#bg {
+    position: absolute;
+    width: 100%;
+    height: 1100px;
+    margin: -30px 0;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/* Header */
+
+.hdr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 80px -25px 80px;
+}
+
+.hdr-logo {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-ul {
+    list-style-type: none;
+}
+
+.nav-ul-li {
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 50px 0 50px;
+}
+
+.nav-ul-li:hover {
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 50px 0 50px;
+}
+
+.nav-ul-li > a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-book {
+    background-color: #fff;
+    color: #42032C;
+    font-weight: bold;
+    padding: 10px 50px;
+    border-radius: 5px;
+    text-decoration: none;
+    opacity: 0.5;
+    box-shadow: 0 20px 30px;
+}
+
+.btn-book:hover {
+    background-color: #42032C;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 50px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0 0 0 0;
+    opacity: 1;
+}
+
+.mn {
+    margin: 100px 80px 0 80px;
+}
+
+.main-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.main-wd {
+    color: #fff;
+}
+
+/* Discover */
+
+#wlc-bali {
+    font-size: 20px;
+    font-weight: 425;
+}
+
+#wlc-head {
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    line-height: 100px;
+}
+
+#wlc-desc {
+    margin: 20px 0 50px 0;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.wlc-btn-book {
+    margin-top: 40px;
+    background-color: #fff;
+    color: #42032C;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    opacity: 0.5;
+    box-shadow: 0px 30px 20px #121212;
+}
+
+.wlc-btn-book:hover {
+    margin-top: 50px;
+    background-color: #42032C;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0 0 0 0;
+    opacity: 1;
+}
+
+#btn-info {
+    font-size: 12px;
+    margin-top: 30px;
+    color: #fff;
+}
+
+/* Destination */
+
+.sec-dis {
+    margin-bottom: 100px;
+}
+
+.bg-des-abo-asd {
+    /*background-color: #42032C;*/
+    margin: 0px 0;
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.wrap-des-abo {
+    display: flex;
+    flex-direction: column;
+}
+
+.sec-des {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.sec-des-title {
+    font-size: 35px;
+    color: #b36d00;
+    font-weight: bold;
+}
+
+.sec-des-desc {
+    color: #e6e2aa;
+    font-size: 12px;
+    line-height: 20px;
+    margin-right: 50px;
+}
+
+.btn-exp {
+    margin-top: 20px;
+    position: absolute;
+    background-color: #b36d00;
+    padding: 10px 40px;
+    color: #42032C;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0px 10px 20px #121212;
+}
+
+.btn-exp:hover {
+    margin-top: 20px;
+    position: absolute;
+    background-color: #e6e2aa;
+    padding: 10px 40px;
+    color: #42032C;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 45px 10px 0;
+}
+
+#img-one {
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+    box-shadow: 5px 5px 20px #121212;
+    border-radius: 5px;
+}
+
+#img-two {
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    margin-left: 15px;
+    object-fit: cover;
+    box-shadow: 5px 5px 20px #121212;
+    border-radius: 5px;
+}
+
+#img-three {
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    margin-left: 15px;
+    object-fit: cover;
+    box-shadow: 5px 5px 20px #121212;
+    border-radius: 5px;
+}
+
+/* About Us */
+
+.sec-abo {
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+}
+
+#title-abo-us {
+    font-size: 25px;
+    color:#b36d00;
+    font-weight: bold;
+}
+
+.abo-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#team-pic {
+    width: 250px;
+    height: 245px;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.sec-abo-desc p {
+    color: #e6e2aa;
+    margin-right: 45px;
+    line-height: 25px;
+}
+
+.main-id{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+}
+
+/* Footer */
+
+.foo {
+    margin-top: 110px;
+    background-color: #b36d00;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.foo-ctn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 80px 30px 80px;
+    margin: 30px 0 20px 0;
+}
+
+.foo-logo {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.foo-btn-book {
+    margin-top: 10px;
+}
+
+#btn-book-foo {
+    background-color: #fff;
+    color: #42032C;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    opacity: 0.5;
+    box-shadow: 0 20px 30px;
+}
+
+#btn-book-foo:hover {
+    background-color: #42032C;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    opacity: 1;
+    box-shadow: 0 0px 0px;
+}
+
+.foo-li {
+
+    color: #fff;
+}
+
+#cp-right {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    padding: 20px;
+    font-size: 12px;
+}
+
+/* Id Profile */
+
+/* Responsive */
+
+
+    
+
+
+
